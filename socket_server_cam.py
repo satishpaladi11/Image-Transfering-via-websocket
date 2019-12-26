@@ -37,7 +37,7 @@ async def Operate_soc(websocket, path):
     cap.release
     cv2.destroyAllWindows()
     
-#starting the server
+#starting the server 
 #replace with your ipaddress and port num
 start_server = websockets.serve(Operate_soc, "192.168.29.228", 4000)
 
