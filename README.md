@@ -3,9 +3,9 @@ Continuous transfer of images through websocket
 
 It consists of 
 
-1)Websocket sender
+1)Websocket sender(Socket_server_cam)
 
-2)Websocket reciever
+2)Websocket reciever(Socket_client_cam)
 
 Websocket server
 
