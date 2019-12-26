@@ -39,7 +39,7 @@ async def Operate_soc(websocket, path):
     
 #starting the server
 #replace with your ipaddress and port num
-start_server = websockets.serve(hello, "192.168.29.228", 4000)
+start_server = websockets.serve(Operate_soc, "192.168.29.228", 4000)
 
 #run the server untill the function complete
 asyncio.get_event_loop().run_until_complete(start_server)
